@@ -37,6 +37,8 @@ font-family: Courier;
 /*font-family: Verdana, sans-serif;*/
 font-size: 20px;
 margin: 55px;
+margin-top: 25px;
+margin-bottom: 25px;
 margin-left: 12%;
 }
 ol {
@@ -59,7 +61,7 @@ color: #666;
 }
 footer{
 position: absolute;
-margin-top: 10%;
+margin-top: 0%;
 margin-left: 11%;
 font-family: Courier;
 }
