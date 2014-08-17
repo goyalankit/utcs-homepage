@@ -13,4 +13,16 @@ jQuery(document).ready(function($) {
       term.echo("unknown command");
     });
   }, {prompt: '> ', name: 'test', greetings: "Welcome to my resume!\ntype [[;white;]help], to list supported commands"});
+
+   $.ajax({
+      type: "GET",
+      url: "router.php/help",
+      data: { command: "help" },
+      asynch: true
+    }).done(function(msg) {
+	// do nothing.
+	// this call is wake ther server up.
+	// it's a heroku thing.
+  });
+
 });
